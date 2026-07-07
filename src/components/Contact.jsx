@@ -33,13 +33,13 @@ function Contact() {
                 Get in Touch
               </h3>
               <p className="text-apple-gray-600 mb-8 leading-relaxed">
-                I'm currently based in San Francisco and open to remote opportunities worldwide. 
+                I'm currently based in Ajmer, Rajasthan, India and open to opportunities worldwide. 
                 Feel free to reach out if you'd like to discuss a project or just say hello.
               </p>
               
               <div className="space-y-4">
                 <a
-                  href="mailto:hello@nikhilkumawat.com"
+                  href="mailto:nikhilkumawat.ksg@gmail.com"
                   className="flex items-center gap-4 text-apple-gray-600 hover:text-apple-blue-500 transition-colors group"
                 >
                   <div className="w-12 h-12 bg-apple-gray-100 rounded-full flex items-center justify-center group-hover:bg-apple-blue-500 group-hover:text-white transition-colors">
@@ -47,12 +47,12 @@ function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-apple-gray-900">Email</p>
-                    <p className="text-sm">hello@nikhilkumawat.com</p>
+                    <p className="text-sm">nikhilkumawat.ksg@gmail.com</p>
                   </div>
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/nikhil-kumawat"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-apple-gray-600 hover:text-apple-blue-500 transition-colors group"
@@ -62,12 +62,12 @@ function Contact() {
                   </div>
                   <div>
                     <p className="font-medium text-apple-gray-900">LinkedIn</p>
-                    <p className="text-sm">linkedin.com/in/nikhilkumawat</p>
+                    <p className="text-sm">linkedin.com/in/nikhil-kumawat</p>
                   </div>
                 </a>
 
                 <a
-                  href="https://github.com"
+                  href="https://github.com/nikhilkumawat"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-apple-gray-600 hover:text-apple-blue-500 transition-colors group"
@@ -89,7 +89,7 @@ function Contact() {
                   <MapPin className="text-apple-gray-500 mt-1" size={20} />
                   <div>
                     <p className="font-medium text-apple-gray-900 mb-1">Location</p>
-                    <p className="text-apple-gray-600">San Francisco, California</p>
+                    <p className="text-apple-gray-600">Ajmer, Rajasthan, India</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -111,7 +111,7 @@ function Contact() {
             className="text-center pt-8 border-t border-apple-gray-200"
           >
             <a
-              href="mailto:hello@nikhilkumawat.com"
+              href="mailto:nikhilkumawat.ksg@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-4 bg-apple-blue-500 text-white rounded-full font-medium hover:bg-apple-blue-600 transition-colors text-lg"
             >
               <Mail size={20} />

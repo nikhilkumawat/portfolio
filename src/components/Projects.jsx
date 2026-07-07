@@ -4,44 +4,44 @@ import { ExternalLink, Github } from 'lucide-react'
 function Projects() {
   const projects = [
     {
-      title: 'Microservices Platform',
-      description: 'Built a scalable microservices architecture handling 10M+ daily requests with auto-scaling capabilities',
-      technologies: ['Go', 'Kubernetes', 'AWS', 'gRPC', 'PostgreSQL'],
+      title: 'BNY Loan Restructuring & Fees Processing',
+      description: 'Automated back-office Loan Restructuring, Commitment Increase, and Unscheduled Fees Processing operations, replacing manual Ops-user-driven transactions with web applications and automated schedulers.',
+      technologies: ['Java', 'Spring Boot', 'Spring Cloud', 'Microservices', 'Microsoft SQL', 'Solvas', 'Snowflake', 'Angular', 'GitLab CI/CD'],
       link: '#',
       github: '#'
     },
     {
-      title: 'Real-time Analytics Dashboard',
-      description: 'Developed a real-time data visualization platform processing 1M+ events per second',
-      technologies: ['React', 'Node.js', 'Kafka', 'Redis', 'WebSocket'],
+      title: 'JPMorgan Chase ETL Migration',
+      description: 'Large-scale migration of 15+ Informatica PowerCenter workflows to Java + Apache Spark data pipelines for Capital Markets data infrastructure, processing millions of records.',
+      technologies: ['Java', 'Apache Spark', 'Oracle SQL', 'Informatica PowerCenter', 'AWS S3'],
       link: '#',
       github: '#'
     },
     {
-      title: 'E-commerce API Gateway',
-      description: 'Designed and implemented an API gateway with rate limiting, caching, and authentication',
-      technologies: ['TypeScript', 'Express', 'Redis', 'JWT', 'Docker'],
+      title: 'Goldman Sachs Real-time Analytics',
+      description: 'Built high-throughput data integration pipelines ingesting third-party vendor data into MemSQL distributed database, exposing live analytics through Qlik Sense dashboards.',
+      technologies: ['Java', 'Scala', 'Spring Boot', 'Apache Kafka', 'Apache Spark', 'MemSQL', 'Qlik Sense'],
       link: '#',
       github: '#'
     },
     {
-      title: 'CI/CD Pipeline Automation',
-      description: 'Created automated deployment pipelines reducing deployment time by 70%',
-      technologies: ['Jenkins', 'Docker', 'Kubernetes', 'Terraform', 'AWS'],
+      title: 'Walgreens Space/Floor Planning',
+      description: 'Developed comprehensive Space/Floor Planogram Management System enabling store personnel to design, manage, and optimize store layouts for maximum product visibility.',
+      technologies: ['Core Java', 'Spring Boot', 'MySQL', 'Oracle SQL', 'JDA Space Planning', 'C#'],
       link: '#',
       github: '#'
     },
     {
-      title: 'Machine Learning Model Serving',
-      description: 'Built a model serving infrastructure for ML predictions with sub-100ms latency',
-      technologies: ['Python', 'TensorFlow', 'FastAPI', 'Docker', 'AWS Lambda'],
+      title: 'Shree Cement Process Automation',
+      description: 'Built custom internal web applications to digitize and automate internal operational processes, replacing manual reporting with interactive data visualizations.',
+      technologies: ['Core Java', 'HTML', 'CSS', 'JavaScript', 'AJAX', 'MySQL', 'Oracle SQL', 'Chart.js', 'D3.js'],
       link: '#',
       github: '#'
     },
     {
-      title: 'Distributed Task Queue',
-      description: 'Implemented a distributed task processing system with fault tolerance and retry mechanisms',
-      technologies: ['Go', 'Redis', 'PostgreSQL', 'Docker', 'Kubernetes'],
+      title: 'CI/CD Automation with AI',
+      description: 'Leveraged Agentic AI and MCPs for deep data processing, automated bug detection, and CI/CD deployment automation, cutting release cycle effort.',
+      technologies: ['Generative AI', 'Agentic AI', 'MCP', 'GitLab CI/CD', 'Spring Boot'],
       link: '#',
       github: '#'
     }

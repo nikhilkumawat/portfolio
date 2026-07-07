@@ -20,7 +20,7 @@ function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-2xl md:text-3xl text-apple-gray-500 mb-8 font-medium"
           >
-            Senior Software Engineer
+            Module Lead | Senior Java Backend Engineer
           </motion.p>
           
           <motion.p
@@ -29,7 +29,7 @@ function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-lg md:text-xl text-apple-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            8+ years of experience building scalable software solutions, leading teams, and delivering impactful products that solve real-world problems.
+            8+ years building enterprise applications and data pipelines across banking, retail, and manufacturing domains. Specialized in Java/Spring Boot, large-scale ETL modernization, and real-time data pipelines.
           </motion.p>
 
           <motion.div

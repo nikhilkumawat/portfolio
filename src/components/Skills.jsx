@@ -4,27 +4,27 @@ function Skills() {
   const skillCategories = [
     {
       title: 'Languages',
-      skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'Go', 'SQL']
+      skills: ['Java', 'Scala', 'Python', 'JavaScript', 'C#', 'HTML', 'CSS']
     },
     {
       title: 'Frameworks',
-      skills: ['React', 'Node.js', 'Express', 'Spring Boot', 'Django', 'Next.js']
-    },
-    {
-      title: 'Cloud & DevOps',
-      skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'Linux']
+      skills: ['Spring Boot', 'Spring Cloud', 'Spring Batch', 'Microservices', 'REST API', 'Apache Spark', 'Apache Kafka', 'Angular', 'Node.js']
     },
     {
       title: 'Databases',
-      skills: ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'Elasticsearch']
+      skills: ['Oracle SQL', 'Microsoft SQL', 'MySQL', 'Snowflake', 'MemSQL']
     },
     {
-      title: 'Tools',
-      skills: ['Git', 'Jira', 'Confluence', 'Jenkins', 'GraphQL', 'REST APIs']
+      title: 'Cloud & AI',
+      skills: ['Snowflake Dynamic Tables', 'Generative AI', 'Agentic AI', 'MCP', 'App Engine', 'Splunk']
     },
     {
-      title: 'Soft Skills',
-      skills: ['Team Leadership', 'Agile/Scrum', 'Problem Solving', 'Communication', 'Mentoring']
+      title: 'DevOps & Tools',
+      skills: ['GitLab', 'GitLab CI/CD', 'Bitbucket', 'IntelliJ', 'Postman', 'JIRA', 'Swagger', 'Informatica PowerCenter']
+    },
+    {
+      title: 'Testing & Methodology',
+      skills: ['JUnit', 'Mockito', 'Agile/Scrum', 'Waterfall', 'Qlik Sense', 'Chart.js', 'D3.js']
     }
   ]
 
