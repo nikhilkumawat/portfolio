@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Mail, Linkedin, Github, MapPin } from 'lucide-react'
+import resumePdf from '../assets/nikhil_kumawat_resume.pdf';
 
 function Contact() {
   return (
@@ -118,7 +119,7 @@ function Contact() {
               Send me a message
             </a>
             <a
-              href="/nikhil_kumawat_resume.pdf"
+              href={resumePdf}
               download="nikhil_kumawat_resume.pdf"
               className="inline-flex items-center gap-2 px-8 py-4 bg-apple-gray-200 text-apple-gray-900 rounded-full font-medium hover:bg-apple-gray-300 transition-colors text-lg"
             >
