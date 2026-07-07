@@ -1,6 +1,18 @@
 # Nikhil Kumawat - Personal Resume Website
 
-A modern, Apple-inspired personal resume website built with React, TailwindCSS, and Framer Motion.
+A modern, Apple-inspired personal resume website designed to showcase your professional profile with elegance and interactivity. Built with cutting-edge web technologies, it offers a seamless and visually appealing experience across all devices.
+
+## Table of Contents
+
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Building for Production](#building-for-production)
+- [Customization](#customization)
+- [Tech Stack](#tech-stack)
+- [License](#license)
 
 ## Features
 
@@ -9,7 +21,7 @@ A modern, Apple-inspired personal resume website built with React, TailwindCSS, 
 - **Smooth Animations**: Powered by Framer Motion for elegant transitions
 - **Modern Tech Stack**: React 18, TailwindCSS, Vite
 
-## Sections
+## Project Structure
 
 - **Hero**: Introduction with name, title, and call-to-action buttons
 - **Experience**: Professional timeline showcasing 8+ years of experience
