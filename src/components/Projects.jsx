@@ -37,13 +37,6 @@ function Projects() {
       technologies: ['Core Java', 'HTML', 'CSS', 'JavaScript', 'AJAX', 'MySQL', 'Oracle SQL', 'Chart.js', 'D3.js'],
       link: '#',
       github: '#'
-    },
-    {
-      title: 'CI/CD Automation with AI',
-      description: 'Leveraged Agentic AI and MCPs for deep data processing, automated bug detection, and CI/CD deployment automation, cutting release cycle effort.',
-      technologies: ['Generative AI', 'Agentic AI', 'MCP', 'GitLab CI/CD', 'Spring Boot'],
-      link: '#',
-      github: '#'
     }
   ]
 
@@ -90,22 +83,6 @@ function Projects() {
                     {tech}
                   </span>
                 ))}
-              </div>
-              <div className="flex gap-4">
-                <a
-                  href={project.link}
-                  className="flex items-center gap-2 text-apple-blue-500 hover:text-apple-blue-600 text-sm font-medium"
-                >
-                  <ExternalLink size={16} />
-                  Live Demo
-                </a>
-                <a
-                  href={project.github}
-                  className="flex items-center gap-2 text-apple-gray-600 hover:text-apple-gray-900 text-sm font-medium"
-                >
-                  <Github size={16} />
-                  Code
-                </a>
               </div>
             </motion.div>
           ))}
