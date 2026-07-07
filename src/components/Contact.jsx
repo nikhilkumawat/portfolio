@@ -107,8 +107,8 @@ function Contact() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.4, duration: 0.6 }}
-            className="text-center pt-8 border-t border-apple-gray-200"
+            transition={{ delay: 0.4, duration: 0.6 }} 
+            className="text-center pt-8 border-t border-apple-gray-200 flex flex-col md:flex-row justify-center items-center gap-4"
           >
             <a
               href="mailto:nikhilkumawat.ksg@gmail.com"
@@ -116,6 +116,14 @@ function Contact() {
             >
               <Mail size={20} />
               Send me a message
+            </a>
+            <a
+              href="/nikhil_kumawat_resume.pdf"
+              download="nikhil_kumawat_resume.pdf"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-apple-gray-200 text-apple-gray-900 rounded-full font-medium hover:bg-apple-gray-300 transition-colors text-lg"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+              Download Resume
             </a>
           </motion.div>
         </motion.div>
